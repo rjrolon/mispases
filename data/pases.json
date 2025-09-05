@@ -1,15 +1,15 @@
 [
   {
-    "bank": "Banco Demo Galicia",
+    "bank": "Banco Galicia",
     "card": "Mastercard Black",
     "network": "Mastercard",
     "tier": "Black",
-    "program": "LoungeKey",
+    "program": "Mastercard Airport Experiences by LoungeKey",
     "access_type": "limited",
-    "visits_per_year": 2,
-    "guests": "1 invitado paga",
+    "visits_per_year": 4,
+    "guests": "Se permite. Cada invitado resta un cupo del titular",
     "enrollment_required": true,
-    "conditions": "Activar en la app de LoungeKey",
+    "conditions": "Activar en la app de Mastercard Airport Experiences",
     "source_url": "",
     "verified_at": ""
   },
