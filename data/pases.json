@@ -9,12 +9,17 @@
     "visits_per_year": 4,
     "guests": "Se permite. Cada invitado resta un cupo del titular",
     "enrollment_required": true,
-    "conditions": "Activar en la app de Mastercard Airport Experiences",
+    "conditions": "Activar en la app",
+    "additional_passes": "own",
+    "optional_services": ["fastpass_eze","parking_eze"],
+    "service_quota": {
+      "shared": { "total": 8, "includes": ["fastpass_eze","parking_eze"], "note": "Cupo anual total compartido" }
+    },
     "source_url": "",
     "verified_at": ""
   },
   {
-    "bank": "Banco Demo Santander",
+    "bank": "Banco Galicia",
     "card": "Visa Signature",
     "network": "Visa",
     "tier": "Signature",
@@ -24,6 +29,11 @@
     "guests": "1 invitado paga",
     "enrollment_required": true,
     "conditions": "Registro en la app VACP",
+    "additional_passes": "shared",
+    "optional_services": ["fastpass_eze","parking_eze"],
+    "service_quota": {
+      "per_service": { "fastpass_eze": 4, "parking_eze": 4 }
+    },
     "source_url": "",
     "verified_at": ""
   }
