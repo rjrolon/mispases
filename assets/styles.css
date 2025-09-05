@@ -1,0 +1,6 @@
+:root{--card-radius:12px}
+.card{border-radius:var(--card-radius)}
+.badge-soft{--bs-badge-padding-x:.65em;--bs-badge-padding-y:.35em;border:1px solid rgba(0,0,0,.075);background:#f8f9fa;color:#212529}
+.kv{display:grid;grid-template-columns:140px 1fr;gap:.25rem .75rem}
+.kv .k{opacity:.7}
+@media (max-width: 576px){.kv{grid-template-columns:1fr}}

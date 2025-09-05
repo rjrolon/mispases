@@ -1,0 +1,30 @@
+[
+  {
+    "bank": "Banco Demo Galicia",
+    "card": "Mastercard Black",
+    "network": "Mastercard",
+    "tier": "Black",
+    "program": "LoungeKey",
+    "access_type": "limited",
+    "visits_per_year": 2,
+    "guests": "1 invitado paga",
+    "enrollment_required": true,
+    "conditions": "Activar en la app de LoungeKey",
+    "source_url": "",
+    "verified_at": ""
+  },
+  {
+    "bank": "Banco Demo Santander",
+    "card": "Visa Signature",
+    "network": "Visa",
+    "tier": "Signature",
+    "program": "Visa Airport Companion",
+    "access_type": "limited",
+    "visits_per_year": 2,
+    "guests": "1 invitado paga",
+    "enrollment_required": true,
+    "conditions": "Registro en la app VACP",
+    "source_url": "",
+    "verified_at": ""
+  }
+]
